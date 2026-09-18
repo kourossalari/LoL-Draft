@@ -1,0 +1,13 @@
+{
+  "name": "lol-draft",
+  "version": "0.0.0",
+  "description": "Assistant de draft League of Legends : propose un champion et des runes en expliquant pourquoi",
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": "true",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

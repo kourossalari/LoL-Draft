@@ -1,0 +1,17 @@
+# Dépendances installées par npm — jamais versionnées, chacun les réinstalle
+node_modules/
+
+# Résultats de build
+dist/
+build/
+*.tsbuildinfo
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+# Uniformise les fins de ligne entre Windows, macOS et Linux.
+# Sans ça, un fichier édité sur deux machines différentes apparaît
+# modifié en entier dans git, alors que rien n'a changé.
+* text=auto eol=lf
