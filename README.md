@@ -25,10 +25,9 @@ npm install
 | `npm run lint:fix`     | Corrige automatiquement ce qui peut l'être  |
 | `npm run format`       | Reformate tous les fichiers                 |
 | `npm run format:check` | Vérifie la mise en forme sans rien modifier |
-| `npm run typecheck`    | Vérifie la cohérence des types              |
 
-Le code applicatif va dans `src/`. Tant que ce dossier ne contient aucun fichier
-`.ts`, `npm run typecheck` s'arrête sur `No inputs were found` — c'est attendu.
+Le code applicatif va dans `src/`. Au premier fichier `.ts`, ajouter le script
+de vérification des types : `npm pkg set scripts.typecheck="tsc --noEmit"`.
 
 ## Organisation du dépôt
 
