@@ -17,6 +17,19 @@ cd LoL-Draft
 npm install
 ```
 
+## Commandes
+
+| Commande               | Effet                                       |
+| ---------------------- | ------------------------------------------- |
+| `npm run lint`         | Signale les erreurs probables dans le code  |
+| `npm run lint:fix`     | Corrige automatiquement ce qui peut l'être  |
+| `npm run format`       | Reformate tous les fichiers                 |
+| `npm run format:check` | Vérifie la mise en forme sans rien modifier |
+| `npm run typecheck`    | Vérifie la cohérence des types              |
+
+Le code applicatif va dans `src/`. Tant que ce dossier ne contient aucun fichier
+`.ts`, `npm run typecheck` s'arrête sur `No inputs were found` — c'est attendu.
+
 ## Organisation du dépôt
 
 On reste sur un dépôt simple tant qu'il n'y a que le moteur et la web app.
